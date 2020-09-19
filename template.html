@@ -32,7 +32,7 @@
       "url": "https://awesome-veganism.com",
       "dateCreated": "2020-08-31T20:45:54Z",
       "datePublished": "2020-09-01T18:21:18Z",
-      "dateModified": "{{ .DateModified.Format "2006-01-02T15:04:05Z" }}",
+      "dateModified": "{{ .DateModified.Format "2006-01-02T15:04:05 MST" }}",
       "sameAs": [
            "https://www.facebook.com/AwesomeVeganism",
            "https://twitter.com/AwesomeVeganism"
@@ -50,6 +50,9 @@
     <h1 class="logo">Awesome<br>Veganism</h1>
     <div class="content">
       {{ .Body }}
+    </div>
+    <div class="footer">
+      Last update: {{ .DateModified.Format "2006-01-02 15:04:05 MST" }}
     </div>
   </body>
 </html>
