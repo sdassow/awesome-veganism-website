@@ -1,0 +1,45 @@
+@import "normalize.css";
+@import "awsm.css/dist/awsm.css";
+
+.awesome-logo {
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+.awesome-vegan-flag {
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+h1.logo {
+	background-image: url("/awesome-vegan-flag.svg");
+	background-size: 12rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 4.5rem;
+	text-align: center;
+	margin: 0;
+	padding: 1rem 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+* {
+	font-family: -apple-system,Helvetica,Arial,sans-serif;
+}
+
+.content {
+	margin: 0 1rem;
+}
+
+.footer {
+	margin: 1rem;
+	font-size: 0.5rem;
+	color: #999;
+}

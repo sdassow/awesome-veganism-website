@@ -1,0 +1,20 @@
+{
+  "name": "awesome-veganism-webgen",
+  "version": "1.0.0",
+  "description": "Golang based Markdown website generator.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss -o assets/bundle.css styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Dassow",
+  "license": "MIT",
+  "devDependencies": {
+    "awsm.css": "^3.0.7",
+    "cssnano": "^4.1.10",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.0.5",
+    "postcss-cli": "^7.1.2",
+    "postcss-import": "^12.0.1"
+  }
+}
