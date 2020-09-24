@@ -1,11 +1,15 @@
 {
-  "name": "awesome-veganism-webgen",
+  "name": "awesome-veganism-website",
   "version": "1.0.0",
-  "description": "Golang based Markdown website generator.",
+  "description": "Template, styles, and assets for awesome-veganism.com",
   "main": "index.js",
   "scripts": {
     "build": "postcss -o assets/bundle.css styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdassow/awesome-veganism-website"
   },
   "author": "Simon Dassow",
   "license": "MIT",
