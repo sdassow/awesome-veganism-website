@@ -53,6 +53,31 @@ p svg {
 	max-width: 100%;
 }
 
+.github-corner-svg {
+	fill: #151513;
+	opacity: 0.95;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	border: 0;
+	right: 0;
+}
+
+.octo-arm-transform {
+	transform-origin: 130px 106px;
+}
+
+.mastodon-logo {
+	width: 31px;
+	height: auto;
+}
+
+p.links a svg,
+p.links a img {
+	padding-left: 10px;
+}
+
+
 /* octocat animation */
 .github-corner:hover .octo-arm { animation: octocat-wave 560ms ease-in-out }
 
