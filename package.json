@@ -15,10 +15,10 @@
   "license": "MIT",
   "devDependencies": {
     "awsm.css": "^3.0.7",
-    "cssnano": "^4.1.10",
+    "cssnano": "^6.0.1",
     "normalize.css": "^8.0.1",
-    "postcss": "^8.0.5",
-    "postcss-cli": "^7.1.2",
-    "postcss-import": "^12.0.1"
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0"
   }
 }
