@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "postcss -o assets/bundle.css styles.css",
+    "build-feed": "postcss -o assets/feed.css styles.feed.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
