@@ -1,0 +1,17 @@
+@import "normalize.css";
+@import "awsm.css/dist/awsm.css";
+
+h1:first-of-type {
+	background-image: url("awesome-vegan-flag.svg");
+	background-size: 12rem;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	font-size: 4.5rem;
+	text-align: center;
+	margin: auto;
+	width: min-intrinsic;
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content;
+}
+
