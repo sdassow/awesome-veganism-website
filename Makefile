@@ -28,5 +28,6 @@ run: markdown-webgen/markdown-webgen awesome-veganism-feed/awesome-veganism-feed
 		awesome-veganism/README.md
 	./awesome-veganism-feed/awesome-veganism-feed \
 		-workdir  awesome-veganism \
-		-destdir ${DESTDIR}
+		-destdir ${DESTDIR} \
+		-stylesheet feed.xsl
 
