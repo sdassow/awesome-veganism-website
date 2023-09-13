@@ -72,6 +72,11 @@ p svg {
 	height: auto;
 }
 
+.feed {
+	width: 31px;
+	height: auto;
+}
+
 p.links a svg,
 p.links a img {
 	padding-left: 10px;
