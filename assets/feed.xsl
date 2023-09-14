@@ -38,9 +38,9 @@
           This is a styled atom feed for
           <a>
             <xsl:attribute name="href">
-              <xsl:value-of select="atom:link/@href"/>
+              <xsl:value-of select="atom:link[@rel='alternate']/@href"/>
             </xsl:attribute>
-            <xsl:value-of select="atom:link/@href"/>
+            <xsl:value-of select="atom:link[@rel='alternate']/@href"/>
           </a>.
         </b>
         Last update: <xsl:value-of select="atom:updated"/>
